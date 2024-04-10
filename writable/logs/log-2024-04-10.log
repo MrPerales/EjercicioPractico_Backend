@@ -7,3 +7,311 @@ in APPPATH\Controllers\Home.php on line 9.
  4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
  5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
  6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-10 04:05:47 --> ErrorException: Undefined variable $key1
+[Method: GET, Route: index.php/mundo]
+in APPPATH\Views\viewholamundo.php on line 14.
+ 1 APPPATH\Views\viewholamundo.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $key1', 'C:\\xampp\\htdocs\\EjercicioPractico\\app\\Views\\viewholamundo.php', 14)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\EjercicioPractico\\app\\Views\\viewholamundo.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('viewholamundo', [], true)
+ 5 APPPATH\Controllers\HolaMundo.php(9): view('viewholamundo')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Holamundo->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Holamundo))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-10 04:06:38 --> ErrorException: Undefined variable $key1
+[Method: GET, Route: index.php/mundo]
+in APPPATH\Views\viewholamundo.php on line 14.
+ 1 APPPATH\Views\viewholamundo.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $key1', 'C:\\xampp\\htdocs\\EjercicioPractico\\app\\Views\\viewholamundo.php', 14)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\EjercicioPractico\\app\\Views\\viewholamundo.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('viewholamundo', [], true)
+ 5 APPPATH\Controllers\HolaMundo.php(9): view('viewholamundo')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Holamundo->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Holamundo))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-10 04:06:39 --> ErrorException: Undefined variable $key1
+[Method: GET, Route: index.php/mundo]
+in APPPATH\Views\viewholamundo.php on line 14.
+ 1 APPPATH\Views\viewholamundo.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $key1', 'C:\\xampp\\htdocs\\EjercicioPractico\\app\\Views\\viewholamundo.php', 14)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\EjercicioPractico\\app\\Views\\viewholamundo.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('viewholamundo', [], true)
+ 5 APPPATH\Controllers\HolaMundo.php(9): view('viewholamundo')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Holamundo->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Holamundo))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-10 04:06:39 --> ErrorException: Undefined variable $key1
+[Method: GET, Route: index.php/mundo]
+in APPPATH\Views\viewholamundo.php on line 14.
+ 1 APPPATH\Views\viewholamundo.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $key1', 'C:\\xampp\\htdocs\\EjercicioPractico\\app\\Views\\viewholamundo.php', 14)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\EjercicioPractico\\app\\Views\\viewholamundo.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('viewholamundo', [], true)
+ 5 APPPATH\Controllers\HolaMundo.php(9): view('viewholamundo')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Holamundo->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Holamundo))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-10 04:06:39 --> ErrorException: Undefined variable $key1
+[Method: GET, Route: index.php/mundo]
+in APPPATH\Views\viewholamundo.php on line 14.
+ 1 APPPATH\Views\viewholamundo.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $key1', 'C:\\xampp\\htdocs\\EjercicioPractico\\app\\Views\\viewholamundo.php', 14)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\EjercicioPractico\\app\\Views\\viewholamundo.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('viewholamundo', [], true)
+ 5 APPPATH\Controllers\HolaMundo.php(9): view('viewholamundo')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Holamundo->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Holamundo))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-10 04:06:40 --> ErrorException: Undefined variable $key1
+[Method: GET, Route: index.php/mundo]
+in APPPATH\Views\viewholamundo.php on line 14.
+ 1 APPPATH\Views\viewholamundo.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $key1', 'C:\\xampp\\htdocs\\EjercicioPractico\\app\\Views\\viewholamundo.php', 14)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\EjercicioPractico\\app\\Views\\viewholamundo.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('viewholamundo', [], true)
+ 5 APPPATH\Controllers\HolaMundo.php(9): view('viewholamundo')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Holamundo->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Holamundo))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-10 04:07:37 --> ErrorException: Undefined variable $key1
+[Method: GET, Route: index.php/mundo/otra]
+in APPPATH\Views\viewholamundo.php on line 14.
+ 1 APPPATH\Views\viewholamundo.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $key1', 'C:\\xampp\\htdocs\\EjercicioPractico\\app\\Views\\viewholamundo.php', 14)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\EjercicioPractico\\app\\Views\\viewholamundo.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('viewholamundo', [], true)
+ 5 APPPATH\Controllers\HolaMundo.php(14): view('viewholamundo')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Holamundo->desdeOtraCarpeta()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Holamundo))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-10 04:08:01 --> ErrorException: Undefined variable $key1
+[Method: GET, Route: index.php/mundo]
+in APPPATH\Views\viewholamundo.php on line 14.
+ 1 APPPATH\Views\viewholamundo.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $key1', 'C:\\xampp\\htdocs\\EjercicioPractico\\app\\Views\\viewholamundo.php', 14)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\EjercicioPractico\\app\\Views\\viewholamundo.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('viewholamundo', [], true)
+ 5 APPPATH\Controllers\HolaMundo.php(10): view('viewholamundo')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Holamundo->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Holamundo))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-10 04:08:03 --> ErrorException: Undefined variable $key1
+[Method: GET, Route: index.php/mundo]
+in APPPATH\Views\viewholamundo.php on line 14.
+ 1 APPPATH\Views\viewholamundo.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $key1', 'C:\\xampp\\htdocs\\EjercicioPractico\\app\\Views\\viewholamundo.php', 14)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\EjercicioPractico\\app\\Views\\viewholamundo.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('viewholamundo', [], true)
+ 5 APPPATH\Controllers\HolaMundo.php(10): view('viewholamundo')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Holamundo->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Holamundo))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-10 04:08:03 --> ErrorException: Undefined variable $key1
+[Method: GET, Route: index.php/mundo]
+in APPPATH\Views\viewholamundo.php on line 14.
+ 1 APPPATH\Views\viewholamundo.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $key1', 'C:\\xampp\\htdocs\\EjercicioPractico\\app\\Views\\viewholamundo.php', 14)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\EjercicioPractico\\app\\Views\\viewholamundo.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('viewholamundo', [], true)
+ 5 APPPATH\Controllers\HolaMundo.php(10): view('viewholamundo')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Holamundo->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Holamundo))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-10 04:08:04 --> ErrorException: Undefined variable $key1
+[Method: GET, Route: index.php/mundo]
+in APPPATH\Views\viewholamundo.php on line 14.
+ 1 APPPATH\Views\viewholamundo.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $key1', 'C:\\xampp\\htdocs\\EjercicioPractico\\app\\Views\\viewholamundo.php', 14)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\EjercicioPractico\\app\\Views\\viewholamundo.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('viewholamundo', [], true)
+ 5 APPPATH\Controllers\HolaMundo.php(10): view('viewholamundo')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Holamundo->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Holamundo))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-10 04:08:04 --> ErrorException: Undefined variable $key1
+[Method: GET, Route: index.php/mundo]
+in APPPATH\Views\viewholamundo.php on line 14.
+ 1 APPPATH\Views\viewholamundo.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $key1', 'C:\\xampp\\htdocs\\EjercicioPractico\\app\\Views\\viewholamundo.php', 14)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\EjercicioPractico\\app\\Views\\viewholamundo.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('viewholamundo', [], true)
+ 5 APPPATH\Controllers\HolaMundo.php(10): view('viewholamundo')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Holamundo->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Holamundo))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-10 04:08:04 --> ErrorException: Undefined variable $key1
+[Method: GET, Route: index.php/mundo]
+in APPPATH\Views\viewholamundo.php on line 14.
+ 1 APPPATH\Views\viewholamundo.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $key1', 'C:\\xampp\\htdocs\\EjercicioPractico\\app\\Views\\viewholamundo.php', 14)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\EjercicioPractico\\app\\Views\\viewholamundo.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('viewholamundo', [], true)
+ 5 APPPATH\Controllers\HolaMundo.php(10): view('viewholamundo')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Holamundo->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Holamundo))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-10 04:08:37 --> ErrorException: Undefined variable $datos
+[Method: GET, Route: index.php/mundo]
+in APPPATH\Views\viewholamundo.php on line 14.
+ 1 APPPATH\Views\viewholamundo.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datos', 'C:\\xampp\\htdocs\\EjercicioPractico\\app\\Views\\viewholamundo.php', 14)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\EjercicioPractico\\app\\Views\\viewholamundo.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('viewholamundo', [], true)
+ 5 APPPATH\Controllers\HolaMundo.php(10): view('viewholamundo')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Holamundo->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Holamundo))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-10 04:08:38 --> ErrorException: Undefined variable $datos
+[Method: GET, Route: index.php/mundo]
+in APPPATH\Views\viewholamundo.php on line 14.
+ 1 APPPATH\Views\viewholamundo.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datos', 'C:\\xampp\\htdocs\\EjercicioPractico\\app\\Views\\viewholamundo.php', 14)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\EjercicioPractico\\app\\Views\\viewholamundo.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('viewholamundo', [], true)
+ 5 APPPATH\Controllers\HolaMundo.php(10): view('viewholamundo')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Holamundo->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Holamundo))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-10 04:08:39 --> ErrorException: Undefined variable $datos
+[Method: GET, Route: index.php/mundo]
+in APPPATH\Views\viewholamundo.php on line 14.
+ 1 APPPATH\Views\viewholamundo.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datos', 'C:\\xampp\\htdocs\\EjercicioPractico\\app\\Views\\viewholamundo.php', 14)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\EjercicioPractico\\app\\Views\\viewholamundo.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('viewholamundo', [], true)
+ 5 APPPATH\Controllers\HolaMundo.php(10): view('viewholamundo')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Holamundo->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Holamundo))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-10 04:08:49 --> ErrorException: Undefined variable $datos
+[Method: GET, Route: index.php/mundo]
+in APPPATH\Views\viewholamundo.php on line 14.
+ 1 APPPATH\Views\viewholamundo.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datos', 'C:\\xampp\\htdocs\\EjercicioPractico\\app\\Views\\viewholamundo.php', 14)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\EjercicioPractico\\app\\Views\\viewholamundo.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('viewholamundo', [], true)
+ 5 APPPATH\Controllers\HolaMundo.php(10): view('viewholamundo')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Holamundo->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Holamundo))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-10 04:08:50 --> ErrorException: Undefined variable $datos
+[Method: GET, Route: index.php/mundo]
+in APPPATH\Views\viewholamundo.php on line 14.
+ 1 APPPATH\Views\viewholamundo.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datos', 'C:\\xampp\\htdocs\\EjercicioPractico\\app\\Views\\viewholamundo.php', 14)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\EjercicioPractico\\app\\Views\\viewholamundo.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('viewholamundo', [], true)
+ 5 APPPATH\Controllers\HolaMundo.php(10): view('viewholamundo')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Holamundo->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Holamundo))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-10 04:08:51 --> ErrorException: Undefined variable $datos
+[Method: GET, Route: index.php/mundo]
+in APPPATH\Views\viewholamundo.php on line 14.
+ 1 APPPATH\Views\viewholamundo.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datos', 'C:\\xampp\\htdocs\\EjercicioPractico\\app\\Views\\viewholamundo.php', 14)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\EjercicioPractico\\app\\Views\\viewholamundo.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('viewholamundo', [], true)
+ 5 APPPATH\Controllers\HolaMundo.php(10): view('viewholamundo')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Holamundo->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Holamundo))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-10 04:08:52 --> ErrorException: Undefined variable $datos
+[Method: GET, Route: index.php/mundo]
+in APPPATH\Views\viewholamundo.php on line 14.
+ 1 APPPATH\Views\viewholamundo.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datos', 'C:\\xampp\\htdocs\\EjercicioPractico\\app\\Views\\viewholamundo.php', 14)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\EjercicioPractico\\app\\Views\\viewholamundo.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('viewholamundo', [], true)
+ 5 APPPATH\Controllers\HolaMundo.php(10): view('viewholamundo')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Holamundo->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Holamundo))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-10 04:14:59 --> ErrorException: Undefined variable $datos
+[Method: GET, Route: index.php/mundo]
+in APPPATH\Views\viewholamundo.php on line 14.
+ 1 APPPATH\Views\viewholamundo.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datos', 'C:\\xampp\\htdocs\\EjercicioPractico\\app\\Views\\viewholamundo.php', 14)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\EjercicioPractico\\app\\Views\\viewholamundo.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('viewholamundo', [], true)
+ 5 APPPATH\Controllers\HolaMundo.php(10): view('viewholamundo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Holamundo->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Holamundo))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-10 04:15:02 --> ErrorException: Undefined variable $datos
+[Method: GET, Route: index.php/mundo]
+in APPPATH\Views\viewholamundo.php on line 14.
+ 1 APPPATH\Views\viewholamundo.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datos', 'C:\\xampp\\htdocs\\EjercicioPractico\\app\\Views\\viewholamundo.php', 14)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\EjercicioPractico\\app\\Views\\viewholamundo.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('viewholamundo', [], true)
+ 5 APPPATH\Controllers\HolaMundo.php(10): view('viewholamundo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Holamundo->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Holamundo))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
