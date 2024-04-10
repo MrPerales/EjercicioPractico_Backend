@@ -12,7 +12,7 @@ class Home extends BaseController
         // buscamos un id
         $articuloId=$articulosModel->find('1');
         var_dump($articuloId);
-        $homePage= view('Home/header').view('Home/body');
+        $homePage= view('Home/header').view('Home/body',$articuloId);
         return $homePage;
     }
 }
