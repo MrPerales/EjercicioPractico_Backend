@@ -25,7 +25,7 @@ class ArticulosModel extends Model
         'descripcion',
         'imagen',
         'contenido_del_articulo',
-        'fecha_de_programacion'
+        'fecha_de_programacion',
     ];
 
     protected bool $allowEmptyInserts = false;
@@ -42,11 +42,11 @@ class ArticulosModel extends Model
     protected $validationRules      = [
         "titulo"=>"required|max_length[30]",
         "meta_titulo"=>"required",
-        'meta_descripcion'=>"required",
-        'descripcion'=>"required",
-        'imagen'=>"required",
-        'contenido_del_articulo'=>"required",
-        'fecha_de_progrmacion'=>"required",
+        "meta_descripcion"=>"required",
+        "descripcion"=>"required",
+        "imagen"=>"required",
+        "contenido_del_articulo"=>"required",
+        "fecha_de_programacion"=>"required",
     ];
     protected $validationMessages   = [];
     protected $skipValidation       = false;

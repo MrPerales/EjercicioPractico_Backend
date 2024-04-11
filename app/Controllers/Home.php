@@ -20,10 +20,11 @@ class Home extends BaseController
             // obtenemos los datos por medio de get o post 
             'titulo'=> $request->getPostGet('titulo'),
             'meta_titulo'=> $request->getPostGet('meta_titulo'),
+            'meta_descripcion'=>$request->getPostGet('meta_descripcion'),
             'descripcion'=> $request->getPostGet('descripcion'),
             'imagen'=> $request->getPostGet('imagen'),
-            'contenido_del_articulo'=> $request-> getPostGet('contenido_del_articulo'),
-            'fecha_de_programacion'=> $request-> getPostGet('fecha_de_programacion'),
+            'contenido_del_articulo'=> $request->getPostGet('contenido_del_articulo'),
+            'fecha_de_programacion'=> $request->getPostGet('fecha_de_programacion'),
         ];
         // cuando se edite agregarle el mismo id que tenia
         if($request->getPostGet('id')){
