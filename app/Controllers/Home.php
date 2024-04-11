@@ -33,10 +33,10 @@ class Home extends BaseController
     {
         // creamos una instancia para recivir valores 
         $articulosModel= new ArticulosModel();
-        // buscamos un id
-        $articuloId=$articulosModel->find('1');
-        var_dump($articuloId);
-        $homePage= view('Home/header').view('Home/body',$articuloId);
+        $articulos=$articulosModel->findAll();
+        $articulos=["articulos"=> $articulos];
+        
+        $homePage= view('Home/header').view('Home/body',$articulos);
         return $homePage;
     }
 }
