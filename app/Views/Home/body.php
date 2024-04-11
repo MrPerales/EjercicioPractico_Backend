@@ -6,7 +6,7 @@
 </div>
 <div>
     <table>
-        <tr>
+        <tr >
             <th>id</th>
             <th>Meta Titulo</th>
             <th>titulo</th>
