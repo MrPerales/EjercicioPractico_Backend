@@ -31,7 +31,10 @@ class ArticulosModel extends Model
     protected $deletedField  = 'deleted_at';
 
     // Validation
-    protected $validationRules      = [];
+    protected $validationRules      = [
+        "titulo"=>"required|max_length[30]",
+        "meta_title"=>"required|alpha_numeric_space_length[3]"
+    ];
     protected $validationMessages   = [];
     protected $skipValidation       = false;
     protected $cleanValidationRules = true;

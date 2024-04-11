@@ -2,7 +2,7 @@
    <!-- <label for="titulo">titulo</label>
    <label for="metatitulo">meta titulo</label> -->
     <?php
-    echo form_open('/Home/guarda');
+    echo form_open('/guarda');
     echo form_label('Inserte Titulo', 'titulo');
     echo form_input(array('name'=>'titulo',"placeholder"=>'titulo'));
     echo '<br>';
