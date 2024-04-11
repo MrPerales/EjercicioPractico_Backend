@@ -33,7 +33,7 @@ class ArticulosModel extends Model
     // Validation
     protected $validationRules      = [
         "titulo"=>"required|max_length[30]",
-        "meta_title"=>"required|alpha_numeric_space_length[3]"
+        "meta_titulo"=>"required",
     ];
     protected $validationMessages   = [];
     protected $skipValidation       = false;

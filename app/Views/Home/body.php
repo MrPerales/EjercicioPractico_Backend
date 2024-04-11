@@ -18,9 +18,18 @@
                 echo "<td>".$articulo['id']."</td>";
                 echo "<td>".$articulo['meta_titulo']."</td>";
                 echo "<td>".$articulo['titulo']."</td>";
-                echo "<td>"."<button> Editar</button>"."</td>";
-                echo "<td>"."<button>Eliminar</button>"."</td>";
-
+                ?>
+                <td>
+                    <a href="<?php echo base_url();?>index.php/edit/<?php echo $articulo['id'];?>">
+                        Editar
+                    </a>
+                </td>
+                <td>
+                    <a href="<?php echo base_url();?>index.php/eliminar/<?php echo $articulo['id'];?>">
+                        Eliminar
+                    </a>
+                </td>
+                <?php
                 echo "</tr>";
             }
         ?>
