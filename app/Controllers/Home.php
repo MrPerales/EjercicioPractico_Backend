@@ -67,4 +67,15 @@ class Home extends BaseController
         return $homePage;
 
     }
+    public function eliminar($id){
+        $articulosModel= new ArticulosModel();
+        // dentro de [] para que nos mande un array
+        $articulosModel->delete($id);
+        //obtenemos de nuevo los registros 
+        $articulos=$articulosModel->findAll();
+        $articulos=["articulos"=> $articulos];
+        
+        $homePage= view('Home/header').view('Home/body',$articulos);
+        return $homePage;
+    }
 }
