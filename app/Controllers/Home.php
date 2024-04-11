@@ -5,6 +5,12 @@ use App\Models\ArticulosModel;
 
 class Home extends BaseController
 {
+   
+    public function formulario(){
+        helper('form');
+        $homePage= view('Home/header').view('Home/formulario');
+        return $homePage;
+    }
     public function index(): string
     {
         // creamos una instancia para recivir valores 
