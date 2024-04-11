@@ -18,7 +18,15 @@ class ArticulosModel extends Model
     protected $useSoftDeletes = true;
 
     // campos a modificar 
-    protected $allowedFields = ['meta_titulo','titulo'];
+    protected $allowedFields = [
+        'meta_titulo',
+        'meta_descripcion',
+        'titulo',
+        'descripcion',
+        'imagen',
+        'contenido_del_articulo',
+        'fecha_de_programacion'
+    ];
 
     protected bool $allowEmptyInserts = false;
     protected bool $updateOnlyChanged = true;
@@ -34,6 +42,11 @@ class ArticulosModel extends Model
     protected $validationRules      = [
         "titulo"=>"required|max_length[30]",
         "meta_titulo"=>"required",
+        'meta_descripcion'=>"required",
+        'descripcion'=>"required",
+        'imagen'=>"required",
+        'contenido_del_articulo'=>"required",
+        'fecha_de_progrmacion'=>"required",
     ];
     protected $validationMessages   = [];
     protected $skipValidation       = false;
