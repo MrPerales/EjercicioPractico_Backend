@@ -11,7 +11,8 @@ $routes->post('/guarda', 'Home::guarda');
 $routes->get('/edit/(:num)','Home::edit/$1');
 $routes->get('/eliminar/(:num)', 'Home::eliminar/$1');
 
-
+// ApiRest
+$routes->resource('restarticulos', ['controller' => "RestArticulos"]);
 
 $routes->get('/index.php/mundo', 'Holamundo');
 $routes->get('/index.php/mundo/otra', 'Holamundo::desdeOtraCarpeta');
