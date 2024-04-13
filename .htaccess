@@ -47,3 +47,6 @@ Options -Indexes
 # Disable server signature start
 ServerSignature Off
 # Disable server signature end
+
+#cambiar el purto para dar acceso o "*" para cualquiera 
+# Header set Access-Control-Allow-Origin ""
